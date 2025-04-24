@@ -10,13 +10,10 @@ Letters are case sensitive, so `"a"` is considered a different type of stone fro
 
 Input: jewels = "aA", stones = "aAAbbbb" Output: 3
 
-Copy
-Edit
+
 Input: jewels = "z", stones = "ZZ" Output: 0
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -52,13 +49,15 @@ class Solution {
         return ans;
     }
 }
+```
 🏁 Output
-
+```
 Input	Output
 jewels = "aA"
 stones = "aAAbbbb"	3
 jewels = "z"
 stones = "ZZ"	0
+```
 🧮 Complexity Analysis
 Time Complexity: O(n + m), where n is the length of jewels and m is the length of stones.
 
@@ -74,16 +73,14 @@ String
 
 🌟 Star this repository if you found the solution helpful!
 
-yaml
-Copy
-Edit
+```
 
 ---
 
 Let me know if you'd like the same format for other LeetCode problems too!
 
 
-
+```
 
 
 
